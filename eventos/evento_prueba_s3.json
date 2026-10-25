@@ -1,0 +1,12 @@
+{
+  "Records": [
+    {
+      "eventSource": "aws:s3",
+      "eventName": "ObjectCreated:Put",
+      "s3": {
+        "bucket": { "name": "mi-bucket-lambda-macecilia-2026" },
+        "object": { "key": "prueba.txt", "size": 18 }
+      }
+    }
+  ]
+}
